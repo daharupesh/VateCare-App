@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "425960680306",
+    "firebase_url": "https://vatecare-app-default-rtdb.firebaseio.com",
+    "project_id": "vatecare-app",
+    "storage_bucket": "vatecare-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425960680306:android:aea46a00db38826f4b4beb",
+        "android_client_info": {
+          "package_name": "com.example.vatecareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425960680306-ndsd030m5n035dmllma9df72g8c1n7lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPo2sfWjbIyz9T8QLA_1yR1H05UBRvFTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425960680306-ndsd030m5n035dmllma9df72g8c1n7lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

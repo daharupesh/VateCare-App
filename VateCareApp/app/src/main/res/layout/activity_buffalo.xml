@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuffaloActivity">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:layout_alignParentTop="true"
+
+    android:background="@color/teal_200">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:id="@+id/buffalo3"
+        android:layout_height="@dimen/_80sdp"
+        app:shapeAppearance="@style/RoundedSquare"
+        android:src="@drawable/buffalo3"
+        android:layout_alignParentBottom="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/buffalo3"
+        android:text="Buffalo Disease"
+        android:textSize="@dimen/_26sdp"/>
+</RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_51sdp"
+        android:layout_marginBottom="@dimen/_51sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_1sdp"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_2sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="• Bovine spongiform:-"
+                    android:textSize="@dimen/_24sdp"/>
+                <TextView
+                    android:id="@+id/tvb3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Bovine spongiform encephalopathy,
+                    commonly known as mad cow disease,is an incurable and inevitably fatal neurodegenerative disease of cattle.
+Symptoms include abnormal behavior,trouble walking, and weightloss.Later in the course of the disease the cow becomes unable to function normally.
+There is conflicting information around the time between infection and onset of symptoms in 2002 the WHO suggested is generally four to five years.
+"                   android:layout_marginLeft="@dimen/_22sdp"
+                    android:layout_below="@+id/tv1"
+                    android:textSize="@dimen/_15sdp"/>
+                 <TextView
+                     android:id="@+id/tvb4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/tvb3"
+                     android:textSize="@dimen/_20sdp"
+                     android:textColor="@color/black"
+                     android:layout_marginLeft="@dimen/_8sdp"
+                     android:text=" • symptoms :-"/>
+                <TextView
+                    android:id="@+id/tvb5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Signs are not seen immediately in cattle,
+due to the disease's extremely long incubation period.Some cattle have been observed to have an abnormal gait, changes in behavior, tremors and hyper-responsiveness to certain stimuli.Hindlimb ataxia affects the animal's gait and occurs when muscle control is lost.
+This results in poor balance and coordination."
+                    android:layout_marginLeft="@dimen/_22sdp"
+                    android:layout_below="@+id/tvb4"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/tvb6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvb5"
+                    android:textSize="@dimen/_20sdp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:text=" • Cause:-"/>
+                <TextView
+                    android:id="@+id/tvb7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="BSE is an infectious disease believed to be due to a misfolded protein, known as a prion.
+Cattle are believed to have been infected from being fed meat and bone meal (MBM)
+that contained the remains of other cattle who spontaneously developed the disease or scrapie-infected sheep products.
+The outbreak increased throughout the United Kingdom due to the practice of feeding meat-and-bone meal to young calves of dairy cows."
+                    android:layout_marginLeft="@dimen/_22sdp"
+                    android:layout_below="@+id/tvb6"
+                    android:textSize="@dimen/_15sdp"/>
+                <TextView
+                    android:id="@+id/tvb8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvb7"
+                    android:textSize="@dimen/_20sdp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:text=" • Pathogenesis:-"/>
+                <TextView
+                    android:id="@+id/tvb9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="The pathogenesis of BSE is not well understood or documented like other diseases of this nature.
+Even though BSE is a disease that results in neurological defects, its pathogenesis occurs in areas that reside outside of the nervous system"
+                    android:layout_marginLeft="@dimen/_22sdp"
+                    android:layout_below="@+id/tvb8"
+                    android:textSize="@dimen/_15sdp"/>
+
+                <TextView
+                    android:id="@+id/tvb10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvb9"
+                    android:textSize="@dimen/_20sdp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:text=" • Diagnosis:-"/>
+                <TextView
+                    android:id="@+id/tvb11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Diagnosis of BSE continues to be a practical problem.
+It has an incubation period of months to years, during which no signs are noticed,
+though the pathway of converting the normal brain prion protein (PrP) into the toxic, disease-related PrPSc form has started.
+At present, no way is known to detect PrPSc reliably except by examining post mortem brain tissue using neuropathological and
+ immunohistochemical methods. Accumulation of the abnormally folded PrPSc form of PrP is a characteristic of the disease,
+but it is present at very low levels in easily accessible body fluids such as blood or urine.
+Researchers have tried to develop methods to measure PrPSc, but no methods for use in materials such as blood have been accepted fully"
+                    android:layout_marginLeft="@dimen/_22sdp"
+                    android:layout_below="@+id/tvb10"
+                    android:textSize="@dimen/_15sdp"/>
+                <androidx.constraintlayout.utils.widget.ImageFilterButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/diseaseimage"
+                    android:layout_below="@+id/tvb11"/>
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginRight="@dimen/_2sdp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="• Bovine spongiform:-"
+                        android:textSize="@dimen/_24sdp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="Bovine spongiform encephalopathy,commonly known as mad cow disease, is an incurable and inevitably fatal neurodegenerative disease of cattle.
+Symptoms include abnormal behavior,trouble walking, and weight loss.Later in the course of the disease the cow becomes unable to function normally.
+There is conflicting information around the time between infection and onset of symptoms in 2002 the WHO suggested is generally four to five years.
+"                   android:layout_marginLeft="@dimen/_22sdp"
+                        android:layout_below="@+id/tv2"
+                        android:textSize="@dimen/_15sdp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    >
+    <Button
+        android:id="@+id/Contactdtr"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:text="Consult With Doctor"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_5sdp"/>
+
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>

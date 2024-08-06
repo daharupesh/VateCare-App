@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_200sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_160sdp"
+        app:shapeAppearance="@style/RoundedSquare"
+        android:src="@drawable/vetback1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vate Care"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"/>
+
+
+
+
+
+</LinearLayout>
